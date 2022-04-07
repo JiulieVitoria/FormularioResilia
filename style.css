@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffb200;
+    font-family:'Archivo', sans-serif; ;
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+
+#topo{
+    background-color: black;   
+    align-items: center; 
+}
+
+#reslogo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulo {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.dizeres { 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+strong {
+    color: black
+}        
+
+.caixa {
+    color: white;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: 15px;
+    width: 360px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+.campo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.inputUser {
+    width: 87%;
+    margin: 5px 0 8px 0;
+}
+
+.nascimentodata {
+    width: 123px;
+}
+
+
+fieldset {
+    margin-top: 10px;
+    border: 3px solid #ffb200;
+    border-radius: 5px;
+}
+
+legend {
+    border: 3px solid #ffb200;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+#botao {
+    margin-top: 20px;
+    background-color: black;
+    color:#ffb200;
+    border:#ffb200;
+    padding: 10px;
+    width:200px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#botao:hover {
+    background-color: #ffb200;
+    color: black;
+}
+.footerbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    bottom: 0;
+    margin-top: 33rem;
+    background-color: black;
+}
